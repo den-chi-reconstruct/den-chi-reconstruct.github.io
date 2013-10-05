@@ -45,14 +45,22 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">关于本站<b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="/cn/about/introduction">本站简介</a></li>
+                                <li><a href="/cn/about/type">企业重组方式</a></li>
                                 <li><a href="http://denchi.cn">传智咨询</a></li>
-                                <li><a href="/cn/about/type">培训方式</a></li>
                             </ul>
                         </li>
-                        <li><a href="/cn/shuiwujishangwu">税务及商务基础培训</a></li>
-                        <li><a href="/cn/qiyechongzu">企业重组专题</a></li>
-                        <li><a href="/cn/faguishiwugengxin">法规、实务更新及案例分析</a></li>
-                        <li><a href="/cn/contact">联系我们</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">常见重组方式<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/cn/reconstruct/qingsuan">清算</a></li>
+                                <li><a href="/cn/reconstruct/hebing">合并</a></li>
+                                <li><a href="/cn/reconstruct/guquanzhuanrang">股权转让</a></li>
+                                <li><a href="/cn/reconstruct/farengongsisheli">法人公司设立</a></li>
+                                <li><a href="/cn/reconstruct/fengongsi">分公司、常驻代表机构设立及注销</a></li>
+                                <li><a href="/cn/reconstruct/biangeng">变更</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://denchi.cn/cn/contact">联系我们</a></li>
                         <li><a href="mailto:richard.wang@denchi.cn">在线咨询</a></li>
                     </ul>
                     <ul class="nav navbar-nav pull-right">
@@ -63,14 +71,14 @@
             </div>
         </div><!-- content
         ================================================== -->
-        <img src="/static/img/upload/Kingkey.jpg"></img>
+        <img src="/static/img/upload/about-us.jpg"></img>
     <div id="page-wrapper" class="row-fluid">
         <div class="span3">
             <div class="well">
                 <ul class="nav nav-list">
                     <li class="nav-header">
                         <a href="#">关于本站</a>
-                    </li><li class="divider"></li><li><a href="/cn/about/introduction">本站简介</a></li><li><a href="http://denchi.cn">传智咨询</a></li><li><a href="/cn/about/type">培训方式</a></li>
+                    </li><li class="divider"></li><li><a href="/cn/about/introduction">本站简介</a></li><li><a href="/cn/about/type">企业重组方式</a></li><li><a href="http://denchi.cn">传智咨询</a></li>
                 </ul>
             </div>
         </div><!--/span-->
@@ -78,8 +86,9 @@
             <h2>本站简介</h2>
             <hr /><p></p>
             <div id="page-content">
-                <p>“传智培训”网站（learn.denchi.cn）由传智咨询有限公司主办，是提供全方位税务及商务培训服务的网站，是实现传智“传播智慧、共享成果”企业宗旨的多媒体平台，寄托着传智“为客户的成功发展注入能量”的愿景。</p>
-<p>授人以鱼不如授人以渔。传智培训以中日双语，与您分享在企业架构、转让定价、税务、海关、外汇等方面的专业积淀。</p>
+                <p>“传智企业重组”网站（saihen.denchi.cn）是传智咨询有限公司下的一个子网站。</p>
+<p>随着中国劳动力成本上升、人民币升值等因素，外资企业在中国经营单纯的加工工厂成本压力越来越大。另一方面，中国经济不断的发展和人均收入的提高，为外商提供了广大的国内市场。受上述大环境等的影响，外资企业需要调整在中国的投资规模以及方式，对现有公司结构进行重组，重组过程中企业需要考虑可行方案以及相关可能产生的风险、成本。</p>
+<p>本站希望能为您提供关于重组方面的一些常见方式、相关法规、一般流程等知识供您参考。</p>
             </div>
         </div><!--/span-->
     </div>
@@ -130,6 +139,10 @@
         $(document.links).filter(function() {
             return this.hostname != window.location.hostname;
         }).attr('target', '_blank');
+    </script>
+    
+    <script type="text/javascript">
+        $('table').addClass('table table-bordered table-hover');
     </script>
     
   </body>
